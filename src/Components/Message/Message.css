@@ -1,0 +1,32 @@
+.message {
+    width: fit-content;
+}
+.message_user {
+    margin-left: auto;
+    color: white;
+    text-align: left !important;
+    width: fit-content;
+}
+.message_userCard{
+    background-color: #2d87e7 !important;
+    color: white !important;
+}
+.message_guestCard{
+    background-color: #e9e9eb !important;
+}
+.user{
+    display: none;
+}
+.guest{
+    display: block;
+}
+.message-style{
+    width: 30%;
+    background-color: lightsteelblue;
+}
+@media only screen and (max-width: 576px) {
+    .message-style{
+        width: 100%;
+        background-color: lightsteelblue;
+    }
+}
